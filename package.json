@@ -1,0 +1,33 @@
+{
+  "name": "27s",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "npm run build && rsync -ravz ./dist root@101.35.125.101:/root/code/27s/"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "buffer": "^6.0.3",
+    "element-plus": "^1.0.2-beta.70",
+    "js-sha256": "^0.9.0",
+    "less": "^4.1.2",
+    "less-loader": "^7.3.0",
+    "lottie-web": "^5.8.1",
+    "near-api-js": "^0.43.1",
+    "near-seed-phrase": "^0.2.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.3.0",
+    "swiper": "^7.2.0",
+    "unplugin-vue-components": "^0.17.2",
+    "vue": "^3.2.16",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "sass": "^1.43.4",
+    "vite": "^2.6.4"
+  }
+}

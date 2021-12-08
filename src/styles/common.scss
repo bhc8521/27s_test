@@ -1,0 +1,27 @@
+$drak-color: #101217;
+
+@font-face {
+  font-family: 'gilroy';  
+  src: url('../assets/fonts/gilroy.otf')          
+}
+
+// @font-face {
+//   font-family: 'gilroyBold';  
+//   src: url('../assets/fonts/gilroy_bold.ttf')          
+// }
+
+@font-face {
+  font-family: 'gilroyHeavy';  
+  src: url('../assets/fonts/gilroy_heavy.otf')          
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;    
+}
